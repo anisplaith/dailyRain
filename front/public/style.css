@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rootDiv {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+   height: auto; /* a altura do body se adapta a soma dos tamanhos dos elementos dentro de si*/
+
+}

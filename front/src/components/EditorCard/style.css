@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/* ------ As classes abaixo são do react-draft-wysiwyg.css ------ */
+
+
+/* barra de ferramentas e editor */
+.rdw-editor-toolbar {
+    background-color: #472183;
+    border-radius: 15px 15px 0px 0px;
+    width: 97vw;
+    height: 13vh;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.rdw-editor-main {
+    background-color: #ae98d55f;
+    height: 40vh;
+    padding: 10px;
+    
+}
+
+/* botões do header */
+.rdw-option-wrapper {
+    background-color: #936dd6;
+}
+.rdw-option-wrapper:nth-child(5) {
+    display: none;
+}
+
+.rdw-option-wrapper:nth-child(6) {
+    display: none;
+}
+
+.rdw-option-wrapper:nth-child(7) {
+    display: none;
+}
+
+.rdw-block-wrapper {
+    display: none;
+}
+
+.rdw-dropdown-optionwrapper {
+    background-color: #f2f2f2;
+}
+
+.rdw-dropdown-optionwrapper:hover {
+    box-shadow: 1px 1px 0px #BFBDBD;
+    background-color: #fdfdfd;
+}
+
+.rdw-dropdown-wrapper {
+    background: #f2f2f2;
+}
+
+.rdw-dropdown-wrapper:hover {
+    background-color: #FFFFFF;
+}
+
+.rdw-dropdownoption-highlighted {
+    background: #ae98d55f;
+}
+
+.rdw-emoji-modal {
+    background: white;
+    box-shadow: 3px 3px 5px #BFBDBD;
+}
+.rdw-image-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.rdw-editor-main blockquote {
+    border-left: 5px solid #936dd6;
+}
+
+.rdw-embedded-wrapper {
+    display: none;
+}
+
+.rdw-list-wrapper {
+    display: none;
+}
+
+/* media query */
+@media (max-width: 1120px) {
+    .rdw-emoji-wrapper {
+        display: none;
+    }
+    .rdw-image-wrapper {
+        display: none;
+    }
+    .rdw-colorpicker-wrapper {
+        display: none;
+    }
+    .rdw-link-wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .rdw-editor-toolbar {
+        height: 16vh;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* header e body */
+.demo-wrapper {
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.demo-editor {
+    width: 97.5vw;
+    height: 78vh;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-dev --no-notify server.js",
+    "migrate": "node ./src/database/migrate.js",
+    "keys": "node ./src/config/generateRSAKeyPair.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "node-dev": "^8.0.0",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4",
+    "unsplash-js": "^7.0.15"
+  }
+}
